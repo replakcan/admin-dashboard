@@ -5,6 +5,13 @@
 :root {
   --smallImageWidth: 50px;
   --largeImageWidth: 75px;
+  --padding: 1rem;
+  --mainGap: 1rem;
+  --headerGap: 1rem;
+  --sideBarGap: 4rem;
+  --headerButtonGap: 1rem;
+  --miniProfileGap: 2rem;
+  --profileGap: 1rem;
 }
 
 body {
