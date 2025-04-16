@@ -98,6 +98,11 @@ div[class="nav-container"] {
 .icon {
   width: 30px;
 }
+
+.project-img {
+  width: 30px;
+}
+
 main {
   display: grid;
   grid-template-columns: repeat(7, 1fr);
@@ -115,5 +120,27 @@ main {
 
 .trend-container {
   grid-area: 4/ 6/ 7/ 8;
+}
+
+.project-container {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+}
+
+.project-card {
+  padding: 2rem 1rem 3rem 1rem;
+  position: relative;
+}
+
+.project-card > p {
+  width: 75%;
+}
+
+.icon-group {
+  display: flex;
+  gap: 2rem;
+  position: absolute;
+  bottom: 1rem;
+  right: 2rem;
 }
 
