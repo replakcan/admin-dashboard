@@ -20,11 +20,16 @@ body {
   grid-template-rows: 1fr auto;
 }
 
+body > * {
+  padding: var(--padding);
+}
+
 header {
   grid-area: 1 / 2 / 2 / -1;
   display: grid;
   grid-template-rows: min-content 1fr;
   grid-template-columns: 2fr 1fr;
+  gap: var(--headerGap);
 }
 
 .search {
@@ -32,6 +37,7 @@ header {
   display: flex;
   justify-content: center;
   align-items: center;
+  gap: var(--headerGap);
 }
 
 .search > input {
@@ -43,6 +49,7 @@ header {
   display: flex;
   justify-content: space-around;
   align-items: center;
+  gap: var(--miniProfileGap);
 }
 
 .profile {
@@ -50,6 +57,7 @@ header {
   display: grid;
   grid-template-rows: min-content 1fr;
   grid-template-columns: min-content 1fr;
+  gap: var(--profileGap);
 }
 
 .profile > img {
@@ -79,6 +87,7 @@ header {
   display: flex;
   justify-content: space-around;
   align-items: center;
+  gap: var(--headerButtonGap);
 }
 
 button[type*="butt"] {
@@ -89,7 +98,7 @@ button[type*="butt"] {
   grid-area: 1/ 1 / -1 / 2;
   display: grid;
   grid-auto-flow: row;
-  gap: 4rem;
+  gap: var(--sideBarGap);
   padding: 1rem;
 }
 
@@ -122,6 +131,7 @@ main {
   display: grid;
   grid-template-columns: repeat(7, 1fr);
   grid-template-rows: repeat(6, 1fr);
+  gap: var(--mainGap);
 }
 
 .main-container {
@@ -140,6 +150,7 @@ main {
 .project-container {
   display: grid;
   grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+  gap: var(--mainGap);
 }
 
 .project-card {
