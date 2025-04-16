@@ -7,7 +7,14 @@
   --largeImageWidth: 75px;
 }
 
+body {
+  display: grid;
+  grid-template-columns: 1fr 4fr;
+  grid-template-rows: 1fr auto;
+}
+
 header {
+  grid-area: 1 / 2 / 2 / -1;
   display: grid;
   grid-template-rows: min-content 1fr;
   grid-template-columns: 2fr 1fr;
@@ -72,6 +79,7 @@ button[type*="butt"] {
 }
 
 .sidebar {
+  grid-area: 1/ 1 / -1 / 2;
   display: grid;
   grid-auto-flow: row;
   gap: 4rem;
@@ -103,6 +111,7 @@ div[class="nav-container"] {
 }
 
 main {
+  grid-area: 2 / 2 / -1 / -1;
   display: grid;
   grid-template-columns: repeat(7, 1fr);
   grid-template-rows: repeat(6, 1fr);
