@@ -86,13 +86,18 @@ header {
 .action-buttons {
   grid-area: 2 / 2 / 3 / 3;
   display: flex;
-  justify-content: space-around;
+  justify-content: center;
   align-items: center;
   gap: var(--headerButtonGap);
 }
 
 button[type*="butt"] {
-  flex: 1;
+  color: white;
+  background-color: var(--greenishBlue);
+  border: none;
+  border-radius: 1rem;
+  padding: 0.4rem 2rem;
+  font-weight: bold;
 }
 
 .sidebar {
