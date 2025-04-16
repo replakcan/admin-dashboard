@@ -8,3 +8,35 @@
 }
 
 
+header {
+  display: grid;
+  grid-template-rows: min-content 1fr;
+  grid-template-columns: 2fr 1fr;
+}
+
+.search {
+  grid-area: 1 / 1 / 2 / 2;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.mini-profile {
+  grid-area: 1 / 2 / 2 / 3;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+}
+
+.profile {
+  grid-area: 2 / 1 / 3 / 2;
+  display: grid;
+  grid-template-rows: min-content 1fr;
+  grid-template-columns: min-content 1fr;
+}
+
+.action-buttons {
+  grid-area: 2 / 2 / 3 / 3;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+}
