@@ -98,3 +98,22 @@ div[class="nav-container"] {
 .icon {
   width: 30px;
 }
+main {
+  display: grid;
+  grid-template-columns: repeat(7, 1fr);
+  grid-template-rows: repeat(6, 1fr);
+}
+
+.main-container {
+  grid-area: 1 / 1 / 7 / 6;
+  display: grid;
+}
+
+.announcement-container {
+  grid-area: 1 / 6 / 4 / 8;
+}
+
+.trend-container {
+  grid-area: 4/ 6/ 7/ 8;
+}
+
