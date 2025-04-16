@@ -56,6 +56,10 @@ header {
   aspect-ratio: 1;
 }
 
+.mini-img {
+  width: var(--smallImageWidth);
+  aspect-ratio: 1;
+}
 
 .action-buttons {
   grid-area: 2 / 2 / 3 / 3;
