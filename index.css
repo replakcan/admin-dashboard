@@ -71,3 +71,30 @@ header {
 button[type*="butt"] {
   flex: 1;
 }
+
+.sidebar {
+  display: grid;
+  grid-auto-flow: row;
+  gap: 4rem;
+  padding: 1rem;
+}
+
+div[class="nav-container"] {
+  display: flex;
+  flex-direction: column;
+  gap: 1rem;
+}
+
+.nav-item,
+.logo-mark {
+  display: flex;
+  gap: 1.5rem;
+}
+
+.logo {
+  width: 50px;
+}
+
+.icon {
+  width: 30px;
+}
