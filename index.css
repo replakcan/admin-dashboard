@@ -5,9 +5,12 @@
   --mainGap: 1rem;
   --headerGap: 1rem;
   --sideBarGap: 4rem;
-  --headerButtonGap: 1rem;
+  --headerButtonGap: 2rem;
   --miniProfileGap: 2rem;
   --profileGap: 1rem;
+  --greenishBlue: rgb(0, 134, 139);
+  --mainBgClr: lightgray;
+  --mainChildBgClr: white;
 }
 
 body {
