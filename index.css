@@ -168,8 +168,32 @@ main {
   grid-area: 1 / 6 / 4 / 8;
 }
 
-.announcement-container > div,
-.trend-container > div {
+.announcement-container {
+  border-radius: 1rem;
+  padding: 1rem 2rem;
+  font-size: 1rem;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+
+.announcement-item {
+  padding: 1rem 0;
+  border-bottom: 1px solid lightgray;
+  line-height: 1.2;
+}
+
+.announcement-item:last-child {
+  border-bottom: none;
+}
+
+.announcement-item > p,
+.trend-container > div p:nth-child(3) {
+  color: gray;
+}
+
+.main-announcement-container > div:nth-child(2),
+.main-trend-container > div:nth-child(2) {
   background-color: var(--mainChildBgClr);
   
 }
