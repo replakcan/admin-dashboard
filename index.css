@@ -8,13 +8,15 @@
   --headerButtonGap: 2rem;
   --miniProfileGap: 1.5rem;
   --profileGap: 1rem;
-  --greenishBlue: rgb(0, 134, 139);
   --mainBgClr: lightgray;
   --mainChildBgClr: white;
   --circleImageRadius: 5rem;
   --btnBorderRadius: 2rem;
   --semiTransparentRed: rgba(255, 0, 0, 0.3);
   --announcementPadding: 2rem;
+  --greenishBlue: rgb(60, 123, 131);
+  --cyberPink: rgb(187, 102, 180);
+  --cyberYellow: rgb(252, 238, 12);
 }
 
 body {
@@ -158,6 +160,12 @@ main {
 .announcement-container,
 .trend-container {
   margin-top: 1rem;
+}
+
+.project-card,
+.announcement-container,
+.trend-container {
+  box-shadow: 10px 10px 10px -2px var(--cyberPink);
 }
 
 .main-container {
