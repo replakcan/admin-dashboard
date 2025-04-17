@@ -107,9 +107,10 @@ button[type*="butt"] {
   color: white;
   background-color: var(--greenishBlue);
   border: none;
-  border-radius: 1rem;
+  border-radius: var(--btnBorderRadius);
   padding: 0.4rem 2rem;
   font-weight: bold;
+  cursor: pointer;
 }
 
 .sidebar {
