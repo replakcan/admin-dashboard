@@ -18,9 +18,13 @@
 }
 
 body {
+  font-family: "Gill Sans", "Gill Sans MT", "Calibri", "Trebuchet MS",
+    sans-serif;
   display: grid;
   grid-template-columns: 1fr 4fr;
   grid-template-rows: 1fr auto;
+  font-size: 1.5rem;
+  line-height: normal;
 }
 
 body > * {
