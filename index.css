@@ -1,16 +1,20 @@
 :root {
-  --smallImageWidth: 50px;
+  --smallImageWidth: 60px;
   --largeImageWidth: 75px;
   --padding: 1rem;
   --mainGap: 1rem;
   --headerGap: 1rem;
   --sideBarGap: 4rem;
   --headerButtonGap: 2rem;
-  --miniProfileGap: 2rem;
+  --miniProfileGap: 1.5rem;
   --profileGap: 1rem;
   --greenishBlue: rgb(0, 134, 139);
   --mainBgClr: lightgray;
   --mainChildBgClr: white;
+  --circleImageRadius: 5rem;
+  --btnBorderRadius: 2rem;
+  --semiTransparentRed: rgba(255, 0, 0, 0.3);
+  --announcementPadding: 2rem;
 }
 
 body {
