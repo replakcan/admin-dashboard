@@ -168,8 +168,10 @@ main {
   display: grid;
 }
 
-.announcement-container {
+.main-announcement-container {
   grid-area: 1 / 6 / 4 / 8;
+  display: grid;
+  grid-template-rows: min-content 1fr;
 }
 
 .announcement-container {
