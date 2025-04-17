@@ -144,10 +144,7 @@ div[class="nav-container"] {
 
 .icon {
   width: 30px;
-}
-
-.project-img {
-  width: 30px;
+  cursor: pointer;
 }
 
 main {
@@ -218,12 +215,15 @@ main {
 
 .project-card {
   padding: 2rem 1rem 3rem 1rem;
+  border-radius: 1rem;
+  border-left: 15px solid var(--semiTransparentRed);
   position: relative;
   background-color: var(--mainChildBgClr);
 }
 
 .project-card > p {
-  width: 75%;
+  width: 95%;
+  color: gray;
 }
 
 .icon-group {
