@@ -37,6 +37,9 @@ header {
   grid-template-rows: min-content 1fr;
   grid-template-columns: 2fr 1fr;
   gap: var(--headerGap);
+  padding: 1rem 2rem;
+  box-shadow: 0 10px 10px -2px var(--semiTransparentRed);
+  z-index: 1;
 }
 
 .search {
