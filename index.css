@@ -71,12 +71,15 @@ header {
   display: grid;
   grid-template-rows: min-content 1fr;
   grid-template-columns: min-content 1fr;
-  gap: var(--profileGap);
+  column-gap: var(--profileGap);
   align-items: center;
+  line-height: 2rem;
 }
 
 .profile > img {
   grid-area: 1 / 1 / 3 / 2;
+  min-width: var(--largeImageWidth);
+  border-radius: var(--circleImageRadius);
 }
 
 .profile > p {
@@ -85,11 +88,6 @@ header {
 
 .profile > h2 {
   grid-area: 2 / 2 / 3 / 3;
-}
-
-.profile > img {
-  width: var(--largeImageWidth);
-  aspect-ratio: 1;
 }
 
 .mini-img {
