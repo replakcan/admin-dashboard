@@ -51,15 +51,18 @@ header {
 }
 
 .search > input {
+  background-color: lightgray;
+  border: none;
+  border-radius: 1.5rem;
   flex-grow: 1;
+  padding: 0.5rem 1rem;
 }
 
 .mini-profile {
   grid-area: 1 / 2 / 2 / 3;
   display: flex;
-  justify-content: space-around;
+  justify-content: flex-end;
   align-items: center;
-  justify-content: center;
   gap: var(--miniProfileGap);
 }
 
