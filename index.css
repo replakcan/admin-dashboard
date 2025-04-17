@@ -132,10 +132,7 @@ div[class="nav-container"] {
 .logo-mark {
   display: flex;
   gap: 1.5rem;
-}
-
-.logo-mark {
-  height: min-content;
+  align-items: center;
 }
 
 .logo {
