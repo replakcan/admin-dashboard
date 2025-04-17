@@ -98,7 +98,7 @@ header {
 .action-buttons {
   grid-area: 2 / 2 / 3 / 3;
   display: flex;
-  justify-content: center;
+  justify-content: flex-end;
   align-items: center;
   gap: var(--headerButtonGap);
 }
