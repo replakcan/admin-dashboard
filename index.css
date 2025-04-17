@@ -92,7 +92,7 @@ header {
 
 .mini-img {
   width: var(--smallImageWidth);
-  aspect-ratio: 1;
+  border-radius: var(--circleImageRadius);
 }
 
 .action-buttons {
